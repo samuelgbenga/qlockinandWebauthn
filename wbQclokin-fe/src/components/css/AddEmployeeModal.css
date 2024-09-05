@@ -1,0 +1,148 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+.close-button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+  position: absolute;
+  right: 5%;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right:25px;
+}
+
+.upload-button svg {
+  margin-right: 8px;
+  width: 16px;  
+  height: 16px;  
+  fill: white;
+}
+
+.upload-button {
+  background-color: #6A0DAD;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.delete-button {
+  color: #ff1744;;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.delete-button svg{
+  margin-right: 8px;
+  width: 16px;  
+  height: 16px;  
+  fill: #ff1744;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color:#98A2B3;
+  font-size: 13px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f3e5f5;
+  font-size: 13px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-row .form-group {
+  width: 32%;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.submit-button {
+  background-color: #6A0DAD;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.submit-button svg{
+  margin-right: 8px;
+  width: 16px;  
+  height: 16px;  
+  fill: white;
+}
